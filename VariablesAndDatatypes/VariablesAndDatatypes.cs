@@ -29,6 +29,22 @@ using System;
 
             // Print the values using a Formatting String
             Console.WriteLine("{0},{1},{2},{3},{4},{5},{6},{7}", number, anotherNumber, decimalNumber, isBoolean, letter, alsoANumber, alsoAString);
+
+            // "null" means "no value"
+            object obj = null;
+            Console.WriteLine(obj);
+
+            // Implicit conversions between types
+            long bignum;
+            bignum = number;
+
+            // Explicit conversions
+            float i_to_f = (float)number;
+            Console.WriteLine("{0", i_to_f);
+
+            int f_to_i = (int)anotherNumber;
+            Console.WriteLine("{0", f_to_i);
+
         }
     }
 }
